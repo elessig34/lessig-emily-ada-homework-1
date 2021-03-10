@@ -86,13 +86,13 @@ View(freq)
 Most commonly used word
 
 ```{r}
-names(T [T==max(T)])
+names(T [T==max(T)]) #the
 ```
 
 Number of words used exactly 1 time
 
 ```{r}
-length(which(T==1))
+length(which(T==1)) #1072
 
 ```
 
@@ -100,7 +100,7 @@ Number of words used 5 or more times
 
 ```{r}
 
-length(which( T >= 5))
+length(which( T >= 5)) #369
 ```
 
 Split the entire last paragraph into a new variable, final_quote
